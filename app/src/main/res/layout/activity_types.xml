@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/Types_Activity_Tb_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        >
+        <ImageButton
+            android:id="@+id/Types_Activity_Ib_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/des_back"
+            app:srcCompat="@drawable/ic_back_white"
+            android:background="@color/colorPrimary"
+            android:layout_marginEnd="@dimen/d35"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_type2"
+            android:textSize="@dimen/s20"
+            android:textColor="@color/White"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/Types_Activity_Rv_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Types_Activity_Tb_toolbar"
+        android:padding="@dimen/d10"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="textInputLayoutTheme" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:layout_marginStart">@dimen/d24</item>
+        <item name="android:layout_marginEnd">@dimen/d24</item>
+        <item name="android:layout_marginTop">@dimen/d0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColorHint">@color/Black</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxBackgroundColor">@color/White</item>
+        <item name="android:gravity">center</item>
+        <item name="passwordToggleTint">@color/colorPrimary</item>
+
+
+    </style>
+
+    <style name="textViewTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/d20</item>
+        <item name="android:layout_marginEnd">@dimen/d20</item>
+        <item name="android:layout_marginTop">@dimen/d10</item>
+        <item name="android:textSize">@dimen/s20</item>
+        <item name="android:background">@drawable/shape_details_item</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:paddingStart">@dimen/d20</item>
+        <item name="android:paddingEnd">@dimen/d20</item>
+        <item name="android:paddingTop">@dimen/d10</item>
+        <item name="android:paddingBottom">@dimen/d10</item>
+    </style>
+
+
+    <style name="textEditTextTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <style name="spinnerTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/d20</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+
+    <style name="buttonTheme">
+        <item name="android:layout_width">@dimen/d200</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:background">@drawable/shape_btn</item>
+        <item name="android:popupElevation">@dimen/d20</item>
+        <item name="android:elevation">@dimen/d20</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginStart">@dimen/d80</item>
+        <item name="android:layout_marginEnd">@dimen/d80</item>
+        <item name="android:layout_marginTop">@dimen/d20</item>
+        <item name="android:layout_marginBottom">@dimen/d20</item>
+    </style>
+
+</resources>

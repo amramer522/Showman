@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="buttonTheme">
+        <item name="android:layout_width">@dimen/d200</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:background">@drawable/shape_btn</item>
+        <item name="android:padding">7dp</item>
+        <item name="android:popupElevation">@dimen/d20</item>
+        <item name="android:elevation">@dimen/d20</item>
+        <!--<item name="android:drawableEnd">@drawable/ic_right</item>-->
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginStart">@dimen/d80</item>
+        <item name="android:layout_marginEnd">@dimen/d80</item>
+        <item name="android:layout_marginTop">@dimen/d20</item>
+        <item name="android:layout_marginBottom">@dimen/d20</item>
+    </style>
+
+
+
+</resources>

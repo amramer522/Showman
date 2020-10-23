@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/d10"
+    android:layout_marginStart="@dimen/d10"
+    android:layout_marginEnd="@dimen/d10"
+    android:paddingBottom="@dimen/d10"
+    android:orientation="vertical"
+    android:background="@drawable/item_border"
+    >
+
+    <ImageView
+        android:id="@+id/Item_Delegate_Sales_Iv_delete"
+        android:layout_width="@dimen/d45"
+        android:layout_height="@dimen/d45"
+        android:contentDescription="@string/des_delete"
+        android:layout_marginEnd="@dimen/d20"
+        android:layout_marginStart="@dimen/d20"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/d10"
+        app:srcCompat="@drawable/ic_delete"
+        />
+
+    <TextView
+        android:id="@+id/Item_Delegate_Sales_Tv_product_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/product_code"
+        android:layout_marginEnd="@dimen/d20"
+        android:layout_marginStart="@dimen/d20"
+        android:layout_marginTop="@dimen/d10"
+        />
+    <TextView
+        android:id="@+id/Item_Delegate_Sales_Tv_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/product_name"
+        android:layout_marginEnd="@dimen/d20"
+        android:layout_marginStart="@dimen/d20"
+        android:layout_marginTop="@dimen/d10"
+        />
+
+    <TextView
+        android:id="@+id/Item_Delegate_Sales_Tv_product_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/product_quantity"
+        android:layout_marginEnd="@dimen/d20"
+        android:layout_marginStart="@dimen/d20"
+        android:layout_marginTop="@dimen/d10"
+        />
+
+    <TextView
+        android:id="@+id/Item_Delegate_Sales_Tv_out_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customer_name"
+        android:layout_marginEnd="@dimen/d20"
+        android:layout_marginStart="@dimen/d20"
+        android:layout_marginTop="@dimen/d10"
+        />
+
+    <TextView
+        android:id="@+id/Item_Delegate_Sales_Tv_delegate_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delegate_name"
+        android:layout_marginEnd="@dimen/d20"
+        android:layout_marginStart="@dimen/d20"
+        android:layout_marginTop="@dimen/d10"
+        />
+
+    <TextView
+        android:id="@+id/Item_Delegate_Sales_Tv_customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customer_name"
+        android:layout_marginEnd="@dimen/d20"
+        android:layout_marginStart="@dimen/d20"
+        android:layout_marginTop="@dimen/d10"
+        />
+    <TextView
+        android:id="@+id/Item_Delegate_Sales_Tv_delegate_sale_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:layout_marginEnd="@dimen/d20"
+        android:layout_marginStart="@dimen/d20"
+        android:layout_marginTop="@dimen/d10"
+        />
+
+</LinearLayout>

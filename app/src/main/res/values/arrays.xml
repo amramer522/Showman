@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="privileges">
+        <item>ادمن</item>
+        <item>مندوب مبيعات</item>
+        <!--<item>مدير المخزن</item>-->
+        <!--<item>محاسب</item>-->
+    </string-array>
+
+    <string-array name="average">
+        <item>متر</item>
+        <item>كرتونه</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>ادمن</item>
+        <item>طنطا</item>
+        <item>المحله</item>
+        </string-array>
+
+    <string-array name="quality">
+        <item>فرز اول</item>
+        <item>فرز تانى</item>
+        <item>فرز تالت</item>
+    </string-array>
+</resources>

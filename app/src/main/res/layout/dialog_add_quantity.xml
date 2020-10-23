@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/d16"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to_add_new_quantity"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/s20"
+        android:textColor="@color/Black"
+        android:paddingBottom="@dimen/d16"
+        />
+
+    <TextView
+        android:id="@+id/Dialog_Add_Quantity_Tv_Available_Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/d10"
+        android:textColor="@color/Black"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Dialog_Add_Quantity_Til_Product_Quantity"
+        style="@style/textInputLayoutTheme">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textEditTextTheme"
+            android:hint="@string/enter_quantity"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/Dialog_Add_Quantity_Btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        style="@style/buttonTheme"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

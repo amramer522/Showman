@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/Login_Activity_Tv_Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/d40"
+        android:layout_marginBottom="@dimen/d20"
+        android:fontFamily="@font/paul"
+        android:gravity="center"
+        android:text="@string/login_logo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/s90" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Login_Activity_Til_User_Name"
+        style="@style/textInputLayoutTheme">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textEditTextTheme"
+            android:drawableEnd="@drawable/ic_account_circle"
+            android:drawablePadding="@dimen/d16"
+            android:hint="@string/user_name"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Login_Activity_Til_Password"
+        style="@style/textInputLayoutTheme"
+        app:passwordToggleEnabled="true"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textEditTextTheme"
+            android:drawableEnd="@drawable/ic_lock"
+            android:hint="@string/password"
+            android:inputType="numberPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/Login_Activity_Btn_Login"
+        style="@style/buttonTheme"
+        android:text="@string/login" />
+
+
+</LinearLayout>

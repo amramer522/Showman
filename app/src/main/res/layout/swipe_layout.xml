@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:leftEdgeSwipeOffset="0dp"
+    app:rightEdgeSwipeOffset="0dp"
+    android:layout_marginTop="@dimen/d10"
+    >
+
+    <LinearLayout
+        android:id="@+id/bottom_wraper"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <TextView
+            android:id="@+id/AddQuantity"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#2cbb00"
+            android:gravity="center"
+            android:text="إضافة كمية"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/Edit"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0076a5"
+            android:gravity="center"
+            android:text="بيع كمية"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/Delete"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:text="مسح المنتج"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_btn"
+        >
+        <TextView
+            android:id="@+id/Item_Product_Tv_Product_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_code"
+            android:textSize="@dimen/s10"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:paddingStart="@dimen/d16"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:paddingEnd="@dimen/d16"
+            />
+
+        <TextView
+            android:id="@+id/Item_Product_Tv_Product_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/d10"
+            android:textColor="#000"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/Item_Product_Tv_Product_Quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_quantity"
+            android:paddingStart="@dimen/d16"
+            android:layout_below="@id/Item_Product_Tv_Product_Name"
+            android:layout_centerHorizontal="true"
+            android:paddingEnd="@dimen/d16"
+            android:textSize="@dimen/s15"
+            android:textColor="@color/White"
+            android:gravity="end"
+            android:layout_marginBottom="@dimen/d10"
+            />
+    </RelativeLayout>
+
+</com.daimajia.swipe.SwipeLayout>

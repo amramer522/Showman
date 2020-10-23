@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Showman</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_exit">تسجيل الخروج</string>
+
+    <string name="menu_products">المنتجات</string>
+    <string name="menu_add_new_product">إضافة منتج جديد</string>
+    <string name="menu_sales">المبيعات المحجوزه</string>
+    <!--<string name="menu_tools">Tools</string>-->
+    <string name="menu_new_users">انشاء يوزر جديد</string>
+    <string name="about_us">About Us</string>
+    <string name="admin">Admin</string>
+    <string name="action_qr_search">بحث باستخدام Qr Code</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_code">كود المنتج</string>
+    <string name="product_name">اسم المنتج</string>
+    <string name="product_quantity">الكميه</string>
+    <string name="date">Date</string>
+    <string name="delegate_name">اسم المندوب</string>
+    <string name="time">الوقت</string>
+    <string name="company_name">اسم الشركة</string>
+    <string name="product_size">المقاس</string>
+    <string name="size_in_meters">حجم العبوه بالمتر</string>
+    <string name="ton">Ton</string>
+    <string name="product_quality">الفرز</string>
+    <string name="save_product">حفظ</string>
+    <string name="hamdy_showman">Hamdy Showman</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login_logo">login</string>
+    <string name="user_name">اليوزر</string>
+    <string name="enter_your_name">اسم المستخدم</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="register">انشاء حساب</string>
+    <string name="nav_done_sales">المبيعات</string>
+    <string name="decrease">انقاص االكميه</string>
+    <string name="menu_companies">الشركات</string>
+    <string name="product_type">النوع</string>
+    <string name="des_back">back icon</string>
+    <string name="des_home">home</string>
+    <string name="products">المنتجات</string>
+    <string name="product_type2">نوع الصنف</string>
+    <string name="to_add_new_quantity">لاضافة كمية جديده</string>
+    <string name="enter_quantity">ادخل الكمية</string>
+    <string name="done">تم</string>
+    <string name="to_add_new_company">لاضافة شركة جديده</string>
+    <string name="des_date_icon">choose date icon</string>
+    <string name="user_code">كود المستخدم</string>
+    <string name="des_delete">delete icon</string>
+    <string name="close_app">هل تريد اغلاق التطبيق ؟</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="sale_quantity">لبيع كمية</string>
+    <string name="des_qr_search">Qr Search</string>
+    <string name="customer_name">اسم العميل</string>
+    <string name="out_number">رقم اذن الصرف</string>
+    <string name="notification_admin_channel_name">general</string>
+    <string name="notification_channel_description">it for all</string>
+
+
+</resources>

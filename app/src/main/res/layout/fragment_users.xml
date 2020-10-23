@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <Spinner
+        android:id="@+id/Register_Activity_S_Access_Permissions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="@dimen/d24"
+        android:layout_marginTop="@dimen/d10"
+        android:layout_marginBottom="@dimen/d10"
+        android:entries="@array/privileges" />
+
+    <Spinner
+        android:id="@+id/Register_Fragment_S_user_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/type"
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/d24"
+        android:layout_marginEnd="@dimen/d24"
+        android:layout_marginTop="@dimen/d10"
+        android:layout_marginBottom="@dimen/d10"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Register_Activity_Til_User_Id"
+        style="@style/textInputLayoutTheme"
+        android:layout_below="@id/Register_Activity_S_Access_Permissions">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textEditTextTheme"
+            android:drawableStart="@drawable/ic_account_circle"
+            android:hint="@string/user_code"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Register_Activity_Til_Name"
+        style="@style/textInputLayoutTheme"
+        android:layout_below="@id/Register_Activity_Til_User_Id">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textEditTextTheme"
+            android:drawableStart="@drawable/ic_account_circle"
+            android:hint="@string/enter_your_name"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Register_Activity_Til_Password"
+        style="@style/textInputLayoutTheme"
+        android:layout_below="@id/Register_Activity_Til_Name"
+        app:passwordToggleEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textEditTextTheme"
+            android:drawableStart="@drawable/ic_lock"
+            android:hint="@string/password"
+            android:inputType="numberPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/Register_Activity_Til_Confirm_Password"
+        style="@style/textInputLayoutTheme"
+        android:layout_below="@id/Register_Activity_Til_Password"
+        app:passwordToggleEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            style="@style/textEditTextTheme"
+            android:drawableStart="@drawable/ic_lock"
+            android:hint="@string/confirm_password"
+            android:inputType="numberPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/Register_Activity_Btn_Register"
+        style="@style/buttonTheme"
+        android:layout_below="@id/Register_Activity_Til_Confirm_Password"
+        android:text="@string/register" />
+
+
+</RelativeLayout>
